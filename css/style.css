@@ -614,7 +614,35 @@
 
         @media (max-width: 480px) {
             .hero-title {
+                font-size: clamp(48px, 14vw, 64px);
                 letter-spacing: 0.04em;
+            }
+
+            .hero-tagline {
+                font-size: 16px;
+            }
+
+            .photo-card {
+                opacity: 0.4;
+            }
+
+            .photo-card:nth-child(1),
+            .photo-card:nth-child(4) {
+                display: none;
+            }
+
+            .photo-card:nth-child(2) {
+                width: 120px;
+                height: 160px;
+                top: 15%;
+                right: -10px;
+            }
+
+            .photo-card:nth-child(3) {
+                width: 100px;
+                height: 140px;
+                bottom: 15%;
+                left: -10px;
             }
 
             .services-grid {
@@ -624,6 +652,5 @@
             .gallery-grid {
                 grid-template-columns: 1fr;
             }
-
 
         }
