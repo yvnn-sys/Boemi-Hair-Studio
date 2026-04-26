@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boemi Hair Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Outfit:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <a class="nav-logo" href="#">BOEMI</a>
+        <ul class="nav-links">
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#lokasi">Lokasi</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" id="closeMenu">&#215;</button>
+        <a href="#layanan" onclick="closeMobile()">Layanan</a>
+        <a href="#galeri" onclick="closeMobile()">Galeri</a>
+        <a href="#lokasi" onclick="closeMobile()">Lokasi</a>
+        <a href="#lokasi" onclick="closeMobile()">Kontak</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-photos">
+            <div class="photo-card"><img src="assets/hero1.jpeg" alt="Boemi Hair Studio 1"></div>
+            <div class="photo-card"><img src="assets/hero2.jpeg" alt="Boemi Hair Studio 2"></div>
+            <div class="photo-card"><img src="assets/hero3.jpeg" alt="Boemi Hair Studio 3"></div>
+            <div class="photo-card"><img src="assets/hero4.jpeg" alt="Boemi Hair Studio 4"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-location">SINTANG &nbsp;·&nbsp; WEST KALIMANTAN</div>
+            <div class="hero-title">BOEMI</div>
+            <div class="hero-subtitle">HAIR STUDIO</div>
+            <div class="hero-tagline">Look Sharp. Feel Confident.</div>
+            <a href="#layanan" class="hero-cta">LIHAT LAYANAN</a>
+        </div>
+        <div class="hero-scroll">
+            <span class="scroll-text">SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section id="layanan">
+        <div class="services-header">
+            <div>
+                <div class="section-eyebrow">APA YANG KAMI TAWARKAN</div>
+                <h2 class="section-title">Layanan<br>kami</h2>
+            </div>
+            <p class="services-desc">Setiap layanan dikerjakan dengan ketelitian dan standar kualitas tinggi oleh tim
+                profesional kami.</p>
+        </div>
+        <h3
+            style="font-family: var(--font-display); font-size: 28px; font-weight: 400; color: var(--accent); margin-bottom: 24px;">
+            HAIRCUT</h3>
+        <div class="services-grid" style="margin-bottom: 48px;">
+            <div class="service-item">
+                <div class="service-num">01</div>
+                <div class="service-name">Kids</div>
+                <div class="service-desc">Potongan rambut khusus untuk anak-anak dengan hasil rapi.</div>
+                <div class="service-price">RP 30.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">02</div>
+                <div class="service-name">Adult</div>
+                <div class="service-desc">Potongan presisi yang disesuaikan dengan bentuk wajah dan karakter gaya Anda.
+                </div>
+                <div class="service-price">RP 35.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">03</div>
+                <div class="service-name">Haircut Reguler</div>
+                <div class="service-desc">Cut, Shaves & Cool Towel.</div>
+                <div class="service-price">RP 40.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">04</div>
+                <div class="service-name">Executive Service</div>
+                <div class="service-desc">Cut, Shaves, Cool Towel & Wash.</div>
+                <div class="service-price">RP 50.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">05</div>
+                <div class="service-name">Royal Service</div>
+                <div class="service-desc">Cut, Shaves, Cool Towel, Wash, Creambath / Hairmask & Masker.</div>
+                <div class="service-price">RP 100.000</div>
+            </div>
+        </div>
+
+        <h3
+            style="font-family: var(--font-display); font-size: 28px; font-weight: 400; color: var(--accent); margin-bottom: 24px;">
+            ADDITIONAL SERVICE</h3>
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-num">06</div>
+                <div class="service-name">Creambath</div>
+                <div class="service-desc">Perawatan relaksasi untuk menutrisi kulit kepala dan menjaga kesehatan rambut.
+                </div>
+                <div class="service-price">RP 80.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">07</div>
+                <div class="service-name">Ceratin</div>
+                <div class="service-desc">Menghaluskan dan menata rambut agar lebih mudah diatur dengan hasil yang tahan
+                    lama.</div>
+                <div class="service-price">RP 80.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">08</div>
+                <div class="service-name">Curly Perm</div>
+                <div class="service-desc">Membentuk tekstur rambut bergelombang natural dengan gaya modern.</div>
+                <div class="service-price">RP 250.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">09</div>
+                <div class="service-name">Down Perm</div>
+                <div class="service-desc">Menata rambut samping agar lebih rapi, halus, dan mudah diatur.</div>
+                <div class="service-price">RP 250.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">10</div>
+                <div class="service-name">Coloring Hair (Black)</div>
+                <div class="service-desc">Pewarnaan hitam natural untuk tampilan rambut lebih tegas dan berkilau.</div>
+                <div class="service-price">RP 100.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">11</div>
+                <div class="service-name">Highlight Coloring</div>
+                <div class="service-desc">Memberikan dimensi warna untuk tampilan rambut yang lebih hidup dan stylish.
+                </div>
+                <div class="service-price">RP 250.000</div>
+            </div>
+            <div class="service-item">
+                <div class="service-num">12</div>
+                <div class="service-name">Fashion Coloring</div>
+                <div class="service-desc">Eksplorasi warna rambut modern sesuai tren dan karakter personal Anda.</div>
+                <div class="service-price">RP 300.000</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri">
+        <div class="gallery-header">
+            <div class="section-eyebrow">HASIL KERJA KAMI</div>
+            <h2 class="section-title">Galeri</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/galeri2.jpeg" alt="Galeri 2">
+            </div>
+            <div class="gallery-item main-gallery">
+                <video src="assets/galeri-utama.mp4" autoplay loop muted playsinline></video>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/galeri4.jpeg" alt="Galeri 4">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/galeri3.jpeg" alt="Galeri 3">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/galeri5.jpeg" alt="Galeri 5">
+            </div>
+        </div>
+    </section>
+
+    <!-- LOKASI & JAM -->
+    <section id="lokasi">
+        <div class="info-block">
+            <div class="section-eyebrow">JAM OPERASIONAL</div>
+            <h2 class="section-title" style="margin-bottom: 40px;">Kunjungi<br>kami</h2>
+            <div class="info-row-item">
+                <span class="day">Senin – Minggu</span>
+                <span class="time">10.00 – 22.00</span>
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="section-eyebrow">KONTAK & LOKASI</div>
+            <h2 class="section-title" style="margin-bottom: 40px;">Hubungi<br>kami</h2>
+            <div class="contact-item">
+                <div class="contact-label">ALAMAT</div>
+                <div class="contact-value">Jl. PKP Mujahidin, Sintang<br>Kalimantan Barat</div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-label">INSTAGRAM</div>
+                <div class="contact-value">@boemihairsudio</div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-label">WHATSAPP</div>
+                <div class="contact-value">+62 xxx xxxx xxxx</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">BOEMI HAIR STUDIO</div>
+        <div class="footer-copy">© 2025 Boemi Hair Studio. All rights reserved.</div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
